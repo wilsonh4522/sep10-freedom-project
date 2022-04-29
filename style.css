@@ -5,9 +5,36 @@ body {
 .title-size {
     font-size: 50px;
     font-family: 'Mochiy Pop One';
+    color: #ffe26a;
 }
 
 .content {
     font-size:35px;
     font-family:'Metal';
+    color: #16123f;
 }
+
+.food {
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    font-family:'Staatliches';
+    
+}
+
+.card {
+    background-color: #ff5e6c;
+    color: white;
+    padding: 5px 5px 0px 5px;
+}
+
+.hardware {
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+
+.title2 {
+    color: #75c9b7;
+    font-size: ;
+}
+
