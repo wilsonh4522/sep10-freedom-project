@@ -1,11 +1,24 @@
 body {
     background-color: #abd699;
 }
+.navbar-light {
+    background: #abd699;
+}
+
+.nav-font {
+    font-family:'Oleo Script Swash Caps';
+    font-size: 25px;
+}
 
 .title-size {
     font-size: 50px;
     font-family: 'Mochiy Pop One';
     color: #ffe26a;
+}
+
+.context {
+
+    
 }
 
 .content {
@@ -16,16 +29,23 @@ body {
 
 .food {
     text-align: center;
-    font-size: 100px;
     color: black;
     font-family:'Staatliches';
-    
+    padding: 70px;
+    margin: 40px;
+    font-size:10vw;
 }
 
 .card {
     background-color: #ff5e6c;
     color: white;
     padding: 5px 5px 0px 5px;
+}
+
+.hs {
+    font-family: 'Orelega One';
+    font-size: 60px;
+    font-weight: 600;
 }
 
 .hardware {

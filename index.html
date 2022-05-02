@@ -24,32 +24,97 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
   </head>
   <body class="">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Context</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Part A</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Part B</a>
-            </li>
-          </ul>
-          </form>
+    <!--<nav class="navbar navbar-expand-lg navbar-light">-->
+    <!--  <nav class="navbar navbar-light">-->
+    <!--    <div class="container-fluid navbar-light">-->
+    <!--      <a class="navbar-brand navbar-light" href="#">-->
+    <!--        <img src="img/logo-pic.png" alt="" width="30" height="24" class="d-inline-block align-text-top">-->
+    <!--        Food Production -->
+    <!--      </a>-->
+    <!--    </div>-->
+    <!--  </nav>-->
+    <!--  <div class="container-fluid">-->
+    <!--    <a class="navbar-brand" href="#"></a>-->
+    <!--    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+    <!--      <span class="<navbar-togge</navbar-togg>ler-icon"></span>-->
+    <!--    </button>-->
+    <!--    <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+    <!--      <ul class="navbar-nav me-auto mb-2 mb-lg-0">-->
+    <!--        <li class="nav-item">-->
+    <!--          <a class="nav-link active nav-font" aria-current="page" href="#Context">Context</a>-->
+    <!--        </li>-->
+    <!--        <li class="nav-item">-->
+    <!--          <a class="nav-link active nav-font" aria-current="page" href="#Parta">Hardware and Software in Food Production</a>-->
+    <!--        </li>-->
+    <!--        <li class="nav-item">-->
+    <!--          <a class="nav-link active nav-font" aria-current="page" href="#Partb">Future Gadget in Food Prodction</a>-->
+    <!--        </li>-->
+            
+    <!--      </ul>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</nav>-->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img src="img/logo-pic.png" width="50" height="28">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#Context">
+            Context
+          </a>
+          
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-item" href="#Parta">
+              Hardware and Sofware in Food Production
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="#Hardware">
+                Hardware
+              </a>
+              <a class="navbar-item" href="#Software">
+                Software
+              </a>
+            </div>
+          </div>
+          
+          <a class="navbar-item" href="#Partb">
+            Future Gadget in Food Prodction
+          </a>
         </div>
       </div>
     </nav>
-   
+    
    
    
     <!--Image Overlay-->
@@ -61,22 +126,25 @@
             </div>
         </div>
       </div>
+    
       
       
       
     <div class="container">
       <!--Context-->
-      <div class="context has-text-centered">
+      <div class="context has-text-centered" id="Context">
          <h1 class="context-title title title-size "> Context</h1>
-         <p class="context-content content"> On this website we will be informing people on how food production is made with technology. Many think that technology is used to make food but people don’t realize that it can do more than just that. There are many different types of technologies and gadgets that have different purposes. These gadgets ensure that the food you are eating is delivered to your local grocery market and are safe to eat. In this website we will be listing types of technology used in food production. We will also come up with an invention that can be used in food production.</p>
+         <p class="context-content content"> On this website we will be informing people on how food production is made with technology. Many people think that technology is used to make food but people don’t realize that it can do more than just that. There are many different types of technologies and gadgets that have different purposes. These gadgets ensure that the food you are eating is delivered to your local grocery market and are safe to eat. In this website we will be listing types of technology used in food production. We will also come up with an invention that can be used in food production.</p>
       </div>
       
       
       <!--Part A-->
-     <div class=" has-text-centered hardware"></div>
+     <div class=" has-text-centered hardware" id="Parta"></div>
        <h1 class="has-text-centered title-size"> Hardware and Software in Food Production</h1>
-       <h2 class="is-size-2 has-text-centered title2">Hardware</h2>
-       <p class="has-text-centered content">In part A we will be lisitng software and hardware technologies used in food production</p>
+       <p class="has-text-centered content">In part A we will be lisitng software and hardware technologies and gadgest used in food production</p>
+      <div id="Hardware">
+       <h2 class="has-text-centered title2 hs">Hardware</h2>
+      </div>
        <div class="row">
         <div class="card m-auto mobile" style="width: 18rem; height: 22rem;">
           <img src="img/rtd-image.jpeg" class="card-img-top" alt="...">
@@ -104,30 +172,30 @@
         </div>
       </div>
         <!--Software-->
-      <div class="has-text-centered">
-        <h2 class="is-size-2 title2">Software</h2>
+      <div class="has-text-centered pt-5 mt-6" id="Software">
+        <h2 class="title2 hs">Software</h2>
         <div class="row">
-          <div class="card m-auto mobile" style="width: 18rem; height: 22rem;">
+          <div class="card m-auto mobile pt-3" style="width: 18rem; height: 22rem;">
             <img src="img/aifs-img.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">AIFS</h5>
-              <p class="card-text">will help inform decisions about cleaning to improve sanitation and reduce the spread of pathogens</p>
+              <p class="card-text">will help inform decisions about cleaning to improve sanitation and reduce the spread of pathogens.</p>
               <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
             </div>
           </div>
-          <div class="card m-auto molbile" style="width: 18rem; height: 22rem;">
-            <img src="img/nir-img.jpeg" class="card-img-top" alt="...">
+          <div class="card m-auto molbile pt-3" style="width: 18rem; height: 22rem;">
+            <img src="img/nir-img.jpeg" class="card-img-bottom" alt="...">
             <div class="card-body">
               <h5 class="card-title">NIR</h5>
-              <p class="card-text">will sort poor-quality fruits and veggies from the good ones</p>
+              <p class="card-text">will sort poor-quality fruits and veggies from the good ones.</p>
               <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
             </div>
           </div>
-          <div class="card m-auto mobile" style="width: 18rem; height: 22rem;">
+          <div class="card m-auto mobile pt-3" style="width: 18rem; height: 22rem;">
             <img src="img/ai-camera.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">AI cameras </h5>
-              <p class="card-text">AI cameras will detect whether an employee is wearing a proper costume or not</p>
+              <p class="card-text">AI cameras will detect whether an employee is wearing a proper costume or not.</p>
               <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
             </div>
           </div>
@@ -135,23 +203,18 @@
       </div>
       
       <!--Part B-->
-      <div class="b-content">
+      <div class="b-content pt-6 mt-4 pb-6 mb-6" id="Partb">
         <h1 class="title has-text-centered title-size">Future Gadget for Food Production</h1>
         <h3 class="content has-text-centered"> In part B I will be coming up with an invention or gadget that would help the food production industry</h3>
-        <p class="is-size-5 has-text-centered"><strong>My invention: An app or website that can tell you all about the food you are eating</strong></p>
-        <h4>Details and features</h4>
+        <p class="is-size-5 has-text-centered" style="color:#16123f; font-family:'Comfortaa';"><strong>My invention: An app or website that can tell you all about the food you are eating</strong></p>
+        <h4 style="font-family:'Metal'; font-size: 50px; color:#16123f;">Details and features:</h4>
         <ul class="content">
           <li> Detail 1: It will show you short videos on how it is created in a factory and delivered to you local supermarket</li>
           <li> Detail 2: It will show you the ingredients of the food and the recommended servings</li>
           <li> Detail 3: You can put your information on who you are and what you are allergic to so it can warn you if the food you are eating is halal or kosher and it will also warn you if it is safe from you are allergic to</li>
           <li> Detail 4: It will suggest a way to cook your food from the food you bought</li>
         </ul>
-  
     
-    
-  <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-  <!--<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
-  <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
   </body>
 </html>
 
